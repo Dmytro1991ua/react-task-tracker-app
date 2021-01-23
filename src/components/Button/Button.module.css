@@ -1,0 +1,23 @@
+.btn {
+    display: inline-block;
+    border: none;
+    background-color: #5a803d;
+    color: #ffffff;
+    padding: 1rem 1.3rem;
+    border-radius: 1.2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    min-width: 8.8rem;
+}
+
+.btn:hover {
+    background-color: #7ac142;
+}
+
+@media (min-width: 48em) {
+    .btn {
+        padding: 1.2rem 1.5rem;
+        font-size: 1.6rem;
+    }
+}

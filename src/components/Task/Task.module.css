@@ -1,0 +1,40 @@
+.task {
+    background-color: #153c6b;
+    padding: 1.5rem;
+    border-radius: 1.2rem;
+    transition: all .3s ease-in-out;
+    margin-bottom: 1.2rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.task:hover {
+   transform: translateX(.5rem);
+}
+.task.reminder {
+    border-left: #5a803d;
+}
+
+.title {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width: 48em) {
+    .title {
+        font-size: 2.2rem;
+    }
+}
+
+.date {
+    font-size: 1.4rem;
+}
+
+@media (min-width: 48em) {
+    .date {
+        font-size: 1.8rem;
+    }
+}
