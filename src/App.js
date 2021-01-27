@@ -38,7 +38,13 @@ function App() {
   };
 
   const deleteTask = (id) => {
-    setTasks(tasks.filter(task => task.id !== id))
+    setTasks(tasks.filter(task => task.id !== id));
+  };
+
+  // toggle task reminder on click
+  const toggleTaskReminder = (id) => {
+    setTasks(tasks.map(task =>
+      task.id === id ? { ...task, reminder: !task.reminder } : task));
   };
 
   return (
@@ -48,7 +54,7 @@ function App() {
           <div className={styles["task-tracker-body"]}>
             <Header onClick={handleClick} showAddedTask={showAddedTask} />
             {showAddedTask && <AddTaskForm addTask={addTask} />}
-            <Tasks tasks={tasks} setTasks={setTasks} deleteTask={ deleteTask}/>
+            {tasks.length > 0 ? <Tasks tasks={tasks} setTasks={setTasks} deleteTask={deleteTask} onToggle={toggleTaskReminder} /> : "No tasks to show"}
           </div>
         </div>
       </section>

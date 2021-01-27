@@ -6,13 +6,16 @@
     margin-bottom: 1.2rem;
     cursor: pointer;
     transition: all .3s ease-in-out;
+    border: 4px solid transparent;
 }
 
 .task:hover {
-   transform: translateX(.5rem);
+    transform: translateX(0.5rem);
 }
+
 .task.reminder {
-    border-left: #5a803d;
+    border: 4px solid #5a803d;
+    transition: all .3s ease-in-out;
 }
 
 .title {

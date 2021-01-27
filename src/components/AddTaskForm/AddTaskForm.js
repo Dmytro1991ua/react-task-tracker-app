@@ -9,12 +9,7 @@ const AddTaskForm = ({ addTask }) => {
 
    const onSubmit = (event) => {
       event.preventDefault();
-
-      // if (!text) {
-      //    alert("Plese enter your task")
-      //    console.log(someRef.current)
-      //    return;
-      // }
+      
       addTask({ text, date, reminder });
 
       setText("");
