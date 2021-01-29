@@ -1,0 +1,26 @@
+.footer {
+  padding: 1.5rem;
+  background-color: #5a803d;
+  border: 4px solid #153c6b;
+  border-radius: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 3rem;
+}
+.copyright {
+   letter-spacing: .15rem;
+   font-size: 1.7rem;
+}
+.link {
+  display: inline-block;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  text-transform: uppercase;
+}
+
+.link:hover {
+   color: #000000;
+} 
