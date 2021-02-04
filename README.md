@@ -1,3 +1,19 @@
+#react-task-tracker-app
+
+Task Tracker App is quite useful and efficient for those who would like to keep abreast with their busy daily life by adding new, sometimes elaborate tasks and be able to not forget them
+
+#### Main Features of test-task-weather-app:
+* Fully responsive app (Mobile First Approach).
+* Functionality to add and delete a new Task.
+* Functionality to toggle a certain task
+* Implemented simple routing
+
+##### Stack of technologies which were used to develop a particular project:
+
+#### React JS, Functional components, CSS Modules, Hooks, Router, Responsive Web Design, Mobile First Approach.
+
+A link on GitHub Pages - https://dmytro1991ua.github.io/react-task-tracker-app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
