@@ -4,7 +4,7 @@ Task Tracker App is quite useful and efficient for those who would like to keep 
 
 #### Main Features of test-task-weather-app:
 * Fully responsive app (Mobile First Approach).
-* Functionality to add and delete a new Task.
+* Functionality to add and delete a Task.
 * Functionality to toggle a certain task
 * Implemented simple routing
 
