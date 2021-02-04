@@ -1,4 +1,4 @@
-#react-task-tracker-app
+# react-task-tracker-app
 
 Task Tracker App is quite useful and efficient for those who would like to keep abreast with their busy daily life by adding new, sometimes elaborate tasks and be able to not forget them
 
