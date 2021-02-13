@@ -1,5 +1,8 @@
 # react-task-tracker-app
 
+![React Task Tracker App - Google Chrome 2021-02-13 22-04-26](https://user-images.githubusercontent.com/61331410/107860392-c4e4e280-6e47-11eb-9297-526686031400.gif)
+
+
 Task Tracker App is quite useful and efficient for those who would like to keep abreast with their busy daily life by adding new, sometimes elaborate tasks and be able to not forget them
 
 #### Main Features of test-task-weather-app:
